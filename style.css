@@ -7,8 +7,25 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
 img {
     max-width: 100%;
+}
+
+/*-------------------
+  BUTTON
+-------------------*/
+
+.btn {
+    background-color: #0061ff;
+    color: white;
+    border: none;
+    width: 70px;
+    height: 30px;
 }
 
 /*-------------------
@@ -18,5 +35,35 @@ img {
 .header-sec {
     display: flex;
     justify-content: space-between;
-    padding: 25px 20px;
+    padding: 15px;
+    height: 80px;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+
+}
+
+.left ul {
+    list-style: none;
+    gap: 10px;
+    padding-left: 40px;
+
+
+}
+
+.right .left {
+    margin-right: 10px;
+}
+
+
+
+.left img {
+    width: 130px;
+    height: 20px;
+}
+
+.hero {
+    min-height: 730px;
 }
