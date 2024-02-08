@@ -259,3 +259,27 @@ li>div {
 .description {
     margin-top: 40px;
 }
+
+/*-------------------
+   MAIN SECTION-3
+-------------------*/
+.box-60 {
+    width: 60%;
+}
+
+.box-40 {
+    width: 40%;
+    padding: 40px 60px;
+}
+
+.box-40 p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.box-40 button {
+    margin-top: 30px;
+    background-color: transparent;
+    padding: 8px;
+    border: 1px solid #d0d0d3;
+}
