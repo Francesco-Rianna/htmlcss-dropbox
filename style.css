@@ -122,6 +122,20 @@ img {
 /*-------------------
    MAIN
 -------------------*/
+
+/*-------------------
+   MAIN TYPOGRAPHY
+-------------------*/
+
+h5 {
+    font-size: 15px;
+
+}
+
+.col-33 div {
+    font-size: 14px;
+}
+
 .section-1 h1 {
     margin-top: 100px;
 }
@@ -132,4 +146,81 @@ img {
 
 .monthly {
     margin-right: 30px;
+}
+
+.row-main {
+    margin-top: 40px;
+}
+
+.col-33 {
+    width: calc(100%/3);
+    border: 1px solid #d0d0d3;
+    min-height: 850px;
+    margin-right: 30px;
+
+
+}
+
+
+
+.content {
+    padding: 40px;
+
+}
+
+
+
+.title-col {
+    text-align: center;
+}
+
+.btn-col {
+    width: 200px;
+}
+
+.up div {
+    padding-top: 15px;
+    font-size: 12px;
+}
+
+.characteristics {
+    margin-top: 30px;
+
+}
+
+.characteristics ul {
+    list-style: none;
+
+}
+
+.characteristics li {
+    margin-top: 20px;
+}
+
+.buy {
+    margin-top: 60px;
+}
+
+.buy>div {
+    margin-top: 20px;
+}
+
+.highlits {
+    margin-top: 100px;
+
+}
+
+
+
+.flex-highlits i {
+    color: blue;
+}
+
+.flex {
+    display: flex;
+    margin-top: 20px;
+}
+
+li>div {
+    padding-left: 10px;
 }
