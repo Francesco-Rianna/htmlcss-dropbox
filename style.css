@@ -22,6 +22,12 @@ img {
     margin: 0 auto;
 }
 
+.container-small {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
 /*-------------------
   BUTTON
 -------------------*/
@@ -88,7 +94,7 @@ img {
 
 .row {
     display: flex;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .box-30 {
@@ -111,4 +117,19 @@ img {
 .box-30 i {
     font-size: 40px;
     margin-top: 70px;
+}
+
+/*-------------------
+   MAIN
+-------------------*/
+.section-1 h1 {
+    margin-top: 100px;
+}
+
+.invoices {
+    margin-top: 40px;
+}
+
+.monthly {
+    margin-right: 30px;
 }
