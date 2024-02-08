@@ -14,6 +14,12 @@ body {
 
 img {
     max-width: 100%;
+    max-height: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
 }
 
 /*-------------------
@@ -64,6 +70,45 @@ img {
     height: 20px;
 }
 
+/*-------------------
+   HERO
+-------------------*/
 .hero {
-    min-height: 730px;
+    height: 730px;
+    background-color: #b4d0e7;
+}
+
+.hero h1 {
+    font-weight: bold;
+    font-size: 60px;
+    padding-top: 20px;
+    line-height: 1.5;
+
+}
+
+.row {
+    display: flex;
+    margin-top: 50px;
+}
+
+.box-30 {
+    width: 30%;
+}
+
+.box-70 {
+    width: 70%;
+}
+
+.box-30 .btn {
+    width: 200px;
+    margin-top: 30px;
+}
+
+.text {
+    margin-top: 30px;
+}
+
+.box-30 i {
+    font-size: 40px;
+    margin-top: 70px;
 }
