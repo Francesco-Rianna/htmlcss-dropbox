@@ -31,6 +31,9 @@ button {
     cursor: pointer;
 }
 
+footer {
+    background-color: black;
+}
 
 /*-------------------
   BUTTON
@@ -472,6 +475,9 @@ li>div {
 /*-------------------
    MAIN SECTION-6
 -------------------*/
+.section-6 {
+    margin-bottom: 100px;
+}
 
 .section-6 h2 {
     margin-top: 100px;
@@ -491,4 +497,44 @@ li>div {
 li {
     display: flex;
     justify-content: space-between;
+}
+
+/*-------------------
+   FOOTER
+-------------------*/
+
+.foot {
+    color: white;
+    display: flex;
+    padding-top: 50px;
+    min-height: 270px;
+
+
+}
+
+.box-20 {
+    width: 25%;
+
+}
+
+.box-20 ul {
+    list-style: none;
+    font-size: 10px;
+    line-height: 2;
+    margin-top: 15px;
+}
+
+.box-20 hr {
+    width: 80px;
+    margin-top: 50px;
+}
+
+.lang {
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.lang i {
+    padding-right: 5px;
 }
