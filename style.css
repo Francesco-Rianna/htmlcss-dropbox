@@ -18,12 +18,12 @@ img {
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .container-small {
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
