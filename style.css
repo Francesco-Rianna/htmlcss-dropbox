@@ -80,7 +80,6 @@ img {
    HERO
 -------------------*/
 .hero {
-    height: 730px;
     background-color: #b4d0e7;
 }
 
@@ -94,7 +93,8 @@ img {
 
 .row {
     display: flex;
-    margin-top: 50px;
+    position: relative;
+    bottom: -50px;
 }
 
 .box-30 {
