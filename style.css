@@ -159,6 +159,7 @@ h5 {
 
 .section-plane h1 {
     margin-top: 100px;
+    font-size: 40px;
 }
 
 .invoices {
@@ -241,6 +242,9 @@ li>div {
     padding-left: 10px;
 }
 
+.highlits h5 {
+    font-weight: bold;
+}
 
 
 
@@ -323,15 +327,14 @@ li>div {
     margin-top: 60px;
 }
 
+
+
 .section-drop-business h2 {
     margin-bottom: 40px;
     font-size: 30px;
 }
 
-.palla {
-    display: flex;
-    flex-grow: 3s;
-}
+
 
 .row-sec-4 {
     gap: 20px;
