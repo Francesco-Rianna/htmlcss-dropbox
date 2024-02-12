@@ -18,12 +18,12 @@ img {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
 .container-small {
-    max-width: 1000px;
+    max-width: 950px;
     margin: 0 auto;
 }
 
@@ -62,10 +62,9 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 15px;
-    height: 80px;
     align-items: center;
-
     background-color: #fff;
+
 
 }
 
@@ -111,7 +110,7 @@ header {
 .hero .row {
     position: relative;
     bottom: -40px;
-    margin-top: 20px;
+
 }
 
 .row {
@@ -178,18 +177,18 @@ h5 {
 .col-33 {
     width: calc(100%/3);
     border: 1px solid #d0d0d3;
-
-
 }
+
+.title-col {
+    text-align: center;
+}
+
 
 .content {
     padding: 40px;
 
 }
 
-.title-col {
-    text-align: center;
-}
 
 .btn-col {
     width: 200px;
@@ -203,6 +202,11 @@ h5 {
 .characteristics {
     margin-top: 30px;
 
+}
+
+.flex {
+    display: flex;
+    margin-top: 20px;
 }
 
 .characteristics ul {
@@ -227,14 +231,11 @@ h5 {
 
 }
 
+
 .flex-highlits i {
     color: blue;
 }
 
-.flex {
-    display: flex;
-    margin-top: 20px;
-}
 
 li>div {
     padding-left: 10px;
@@ -259,11 +260,11 @@ li>div {
 
 .top-100 {
     text-align: center;
-    padding-top: 10px;
+    padding: 10px;
 
 }
 
-.content-2 {
+.content-contacts {
     padding: 20px 40px;
 }
 
@@ -366,8 +367,8 @@ li>div {
 
 .section-partner {
     background-color: #b4d0e7;
-    min-height: 900px;
-    margin-top: 160px;
+    min-height: 800px;
+    margin-top: 100px;
 
 
 }
@@ -391,13 +392,8 @@ li>div {
     display: flex;
     justify-content: center;
     align-items: center;
-    aspect-ratio: 1;
-
-
-
-
+    aspect-ratio: 1/1;
 }
-
 
 
 .internal-square {
@@ -408,7 +404,6 @@ li>div {
     justify-content: center;
     background-color: #a2d39b;
 
-
 }
 
 .square-30 img {
@@ -416,7 +411,6 @@ li>div {
     filter: invert(1);
 
 }
-
 
 .violet {
     background-color: #61082b;
@@ -437,8 +431,7 @@ li>div {
 
 .square-40 img {
     width: 250px;
-    margin: 30px 40px;
-    margin-bottom: 30px;
+    margin: 30px 40px 30px;
 }
 
 .square-40 p {
@@ -461,7 +454,7 @@ li>div {
 
 .section-partner-down {
     display: flex;
-    margin-top: 150px;
+    margin-top: 100px;
 
 }
 
@@ -485,7 +478,6 @@ li>div {
     margin-top: 10px;
     border: none;
     padding: 0px 20px;
-    line-height: 30px;
 }
 
 /*-------------------
@@ -516,7 +508,6 @@ li>div {
     justify-content: space-between;
 }
 
-
 /*-------------------
    FOOTER
 -------------------*/
@@ -525,10 +516,6 @@ li>div {
     color: white;
     display: flex;
     padding-top: 50px;
-    min-height: 270px;
-
-
-
 
 }
 
