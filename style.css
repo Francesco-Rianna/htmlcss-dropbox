@@ -487,6 +487,7 @@ li>div {
 .section-6 ul {
     line-height: 5;
     cursor: pointer;
+    width: 92%;
 
 }
 
@@ -494,9 +495,13 @@ li>div {
     margin-top: 60px;
 }
 
-li {
+.list li {
     display: flex;
     justify-content: space-between;
+}
+
+.list>hr {
+    width: 92%;
 }
 
 /*-------------------
