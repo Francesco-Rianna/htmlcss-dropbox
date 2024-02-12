@@ -35,6 +35,13 @@ footer {
     background-color: black;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+
 /*-------------------
   BUTTON
 -------------------*/
@@ -57,6 +64,9 @@ footer {
     padding: 15px;
     height: 80px;
     align-items: center;
+
+    background-color: #fff;
+
 }
 
 .left {
@@ -145,10 +155,10 @@ h5 {
 }
 
 /*-------------------
-   MAIN SECTION-1
+   MAIN SECTION-PLANE
 -------------------*/
 
-.section-1 h1 {
+.section-plane h1 {
     margin-top: 100px;
 }
 
@@ -171,8 +181,6 @@ h5 {
 
 
 }
-
-
 
 .content {
     padding: 40px;
@@ -232,8 +240,12 @@ li>div {
     padding-left: 10px;
 }
 
+
+
+
+
 /*-------------------
-   MAIN SECTION-2
+   MAIN SECTION-CONTACTS
 -------------------*/
 
 .col-100 {
@@ -256,11 +268,11 @@ li>div {
 }
 
 
-.flex-section-2 {
+.flex-section-contacts {
     justify-content: space-between;
 }
 
-.flex-section-2 .btn {
+.flex-section-contacts .btn {
     width: 180px;
 
 }
@@ -275,9 +287,9 @@ li>div {
 }
 
 /*-------------------
-   MAIN SECTION-3
+   MAIN SECTION-PARTNER-CONT
 -------------------*/
-.section-3 {
+.section-partner-cont {
     margin-top: 70px;
 }
 
@@ -303,15 +315,15 @@ li>div {
 }
 
 /*-------------------
-   MAIN SECTION-4
+   MAIN SECTION-DROP-BUSINESS
 -------------------*/
 
-.section-4 {
+.section-drop-business {
     margin-top: 60px;
 }
 
-.section-4 h2 {
-    margin-bottom: 20px;
+.section-drop-business h2 {
+    margin-bottom: 40px;
     font-size: 30px;
 }
 
@@ -346,11 +358,13 @@ li>div {
     margin-top: 160px;
 }
 
+
+
 /*-------------------
-   MAIN SECTION-5
+   MAIN SECTION-PARTNER
 -------------------*/
 
-.section-5 {
+.section-partner {
     background-color: #b4d0e7;
     min-height: 900px;
     margin-top: 160px;
@@ -361,9 +375,9 @@ li>div {
 .structure {
     width: 100%;
     min-height: 490px;
-
     display: flex;
 }
+
 
 .square-30 {
     width: 30%;
@@ -374,11 +388,13 @@ li>div {
 
 .mini-square {
     width: 50%;
-
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 250px;
+    aspect-ratio: 1;
+
+
+
 
 }
 
@@ -443,13 +459,13 @@ li>div {
     background-color: #ffd830;
 }
 
-.section-5-down {
+.section-partner-down {
     display: flex;
     margin-top: 150px;
 
 }
 
-.col-50-sec5 {
+.col-50-secp {
     width: 50%;
     display: flex;
     justify-content: center;
@@ -458,13 +474,13 @@ li>div {
 }
 
 
-.col-50-sec5-right {
+.col-50-secp-right {
     width: 50%;
     display: flex;
     justify-content: flex-end;
 }
 
-.col-50-sec5-right button {
+.col-50-secp-right button {
     height: 30px;
     margin-top: 10px;
     border: none;
@@ -473,21 +489,21 @@ li>div {
 }
 
 /*-------------------
-   MAIN SECTION-6
+   MAIN SECTION-ASK
 -------------------*/
-.section-6 {
+.section-ask {
     margin-bottom: 100px;
 }
 
-.section-6 h2 {
+.section-ask h2 {
     margin-top: 100px;
     font-size: 20px;
 }
 
-.section-6 ul {
+.section-ask ul {
     line-height: 5;
     cursor: pointer;
-    width: 92%;
+
 
 }
 
@@ -500,9 +516,6 @@ li>div {
     justify-content: space-between;
 }
 
-.list>hr {
-    width: 92%;
-}
 
 /*-------------------
    FOOTER
@@ -515,10 +528,13 @@ li>div {
     min-height: 270px;
 
 
+
+
 }
 
 .box-20 {
     width: 25%;
+    margin-left: 50px;
 
 }
 
